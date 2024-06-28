@@ -47,14 +47,14 @@ items.forEach((link) =>
 2023-2024
 
 
-BrSTU, Master of Economics 
+*BrSTU*, Master of Economics 
 
 2018-2019 
 
 Master's degree. Department of World Economy.
 
 
-BrSU, translator-referent (***English***)
+*BrSU*, translator-referent (***English***)
 
 2016-2018
 
