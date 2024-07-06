@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+} 
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    /* max-width: 1440px; */
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+header{
+    margin-top: 2%;
+}
+
+.header_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(253, 225, 201);
+    flex-wrap: wrap;
+}
+
+.main2{
+    width: 70%;
+    padding-left: 3%;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.photo{
+    border-radius: 50%;
+}
+
+h1,
+h2{
+    color: rgb(84, 80, 86);
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav{
+    padding-top: 3%;
+}
+
+nav li{
+    list-style: none;
+    font-size: 16px;
+    /* padding-left: 10px; */
+    display: inline;
+    line-height: 50px;
+    padding-right: 5px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+
+nav li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: peru;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+nav li a:hover{
+    background-color: antiquewhite;
+}
+
+.exmplcode{
+    background-color: rgb(246, 241, 236);
+}
+
+.footer_link{
+    cursor: pointer;
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(253, 225, 201);
+    margin: 0;
+}
+
+.footer_git{
+    padding: 5%;
+    padding-left: 5%;
+}
+
+.footer_git a{
+    cursor: pointer;
+    vertical-align: baseline;
+}
+
+.footer_year{
+    font-size: 20px;
+    padding: 2%;
+    padding-right: 5%;
+}
